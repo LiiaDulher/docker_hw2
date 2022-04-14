@@ -13,7 +13,7 @@ $ ./run-cluster.sh
 $ ./build_cqlsh.sh
 $ ./run_cqlsh.sh
 $ docker run -it --network dulher-cassandra-network --rm cassandra cqlsh cassandra-node1
-cqlsh> DESKRIBE keyspaces;
+cqlsh> DESCRIBE keyspaces;
 cqlsh> USE hw2_dulher;
 cqlsh> DESCRIBE TABLES;
 cqlsh> SELECT * FROM favorite_songs;

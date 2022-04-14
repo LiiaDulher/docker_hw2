@@ -1,5 +1,5 @@
 # Docker hw2
-Cassandra1
+Cassandra 1
 
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 

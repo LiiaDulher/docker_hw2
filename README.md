@@ -15,9 +15,9 @@ $ ./run_cqlsh.sh
 $ docker run -it --network dulher-cassandra-network --rm cassandra cqlsh cassandra-node1
 cqlsh> DESCRIBE keyspaces;
 cqlsh> USE hw2_dulher;
-cqlsh> DESCRIBE TABLES;
-cqlsh> SELECT * FROM favorite_songs;
-cqlsh> SELECT * FROM favorite_movies;
-cqlsh> exit;
+cqlsh:hw2_dulher> DESCRIBE TABLES;
+cqlsh:hw2_dulher> SELECT * FROM favorite_songs;
+cqlsh:hw2_dulher> SELECT * FROM favorite_movies;
+cqlsh:hw2_dulher> exit;
 $ ./shutdown-cluster.sh
 ````

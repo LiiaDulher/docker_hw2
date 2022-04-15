@@ -1,6 +1,8 @@
 # Docker hw2
 Cassandra 1
 
+## TODO: Change script run-cluster, add important message
+
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 
 ### Usage

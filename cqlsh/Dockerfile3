@@ -1,3 +1,3 @@
 FROM cassandra
-COPY ./build_cqlsh/cql_scripts/check.cql /home/check.cql
+COPY ./cqlsh/cql_scripts/check.cql /home/check.cql
 CMD ["cqlsh","cassandra-node3","-f","/home/check.cql"]

@@ -5,6 +5,9 @@ Cassandra 1
 
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 
+### Important
+It takes about 65 seconds for Cassandra node to start, so <i>run-cluster.sh</i> will run about 3,5 minutes.
+
 ### Usage
 ````
 $ sudo chmod +x run-cluster.sh

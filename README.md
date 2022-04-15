@@ -7,10 +7,10 @@ Cassandra 1
 ````
 $ sudo chmod +x run-cluster.sh
 $ sudo chmod +x shutdown-cluster.sh
-$ sudo chmod +x build_cqlsh.sh
+$ sudo chmod +x build_cqlsh/build_cqlsh.sh
 $ sudo chmod +x run_cqlsh.sh
 $ ./run-cluster.sh
-$ ./build_cqlsh.sh
+$ . build_cqlsh/build_cqlsh.sh 
 $ ./run_cqlsh.sh
 $ ./shutdown-cluster.sh
 ````

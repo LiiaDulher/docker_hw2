@@ -9,10 +9,12 @@ Cassandra 1
 ````
 $ sudo chmod +x run-cluster.sh
 $ sudo chmod +x shutdown-cluster.sh
-$ sudo chmod +x build_cqlsh/build_cqlsh.sh
-$ sudo chmod +x run_cqlsh.sh
+$ sudo chmod +x cqlsh/build_cqlsh.sh
+$ sudo chmod +x cqlsh/run_cqlsh.sh
+$ sudo chmod +x cqlsh/remove_images.sh
 $ ./run-cluster.sh
-$ . build_cqlsh/build_cqlsh.sh 
-$ ./run_cqlsh.sh
+$ . cqlsh/build_cqlsh.sh
+$ . cqlsh/run_cqlsh.sh
+$ . cqlsh/remove_images.sh
 $ ./shutdown-cluster.sh
 ````

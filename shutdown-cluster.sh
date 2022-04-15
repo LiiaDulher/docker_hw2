@@ -1,3 +1,5 @@
+#!/bin/bash
+
 docker stop cassandra-node1
 docker stop cassandra-node2
 docker stop cassandra-node3

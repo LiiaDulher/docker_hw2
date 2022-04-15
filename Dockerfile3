@@ -1,3 +1,0 @@
-FROM cassandra
-COPY check.cql /home/check.cql
-CMD ["cqlsh","cassandra-node1","-f","/home/check.cql"]

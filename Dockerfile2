@@ -1,3 +1,0 @@
-FROM cassandra
-COPY DML.cql /home/DML.cql
-CMD ["cqlsh","cassandra-node1","-f","/home/DML.cql"]

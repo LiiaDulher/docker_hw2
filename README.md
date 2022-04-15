@@ -1,12 +1,12 @@
 # Docker hw2
 Cassandra 1
 
-## TODO: Change script run-cluster, add important message, add folders structure
+## TODO: add folders structure, yaml
 
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 
 ### Important
-It takes about 65 seconds for Cassandra node to start, so <i>run-cluster.sh</i> will run about 3,5 minutes.
+It takes about 65 seconds for Cassandra node to start, so <i>run-cluster.sh</i> will run about <b>3,5 minutes</b>.
 
 ### Usage
 ````

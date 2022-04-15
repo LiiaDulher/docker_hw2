@@ -1,3 +1,3 @@
 FROM cassandra
-COPY ./build_cqlsh/cql_scripts/DML.cql /home/DML.cql
+COPY ./cqlsh/cql_scripts/DML.cql /home/DML.cql
 CMD ["cqlsh","cassandra-node2","-f","/home/DML.cql"]

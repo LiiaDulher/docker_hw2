@@ -14,33 +14,32 @@ $ sudo chmod +x run-cluster.sh
 $ sudo chmod +x shutdown-cluster.sh
 $ sudo chmod +x cqlsh/build_cqlsh.sh
 $ sudo chmod +x cqlsh/run_cqlsh.sh
-$ sudo chmod +x cqlsh/remove_images.sh
+$ sudo chmod +x cqlsh/remove_cqlsh.sh
 $ ./run-cluster.sh
 $ . cqlsh/build_cqlsh.sh
 $ . cqlsh/run_cqlsh.sh
-$ . cqlsh/remove_images.sh
+$ . cqlsh/remove_cqlsh.sh
 $ ./shutdown-cluster.sh
 ````
 ## Directory structure
 ```markdown
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
+├── cqlsh
+│   ├── cql_scripts
+│   │   ├── DDL.cql
+│   │   ├── DML.cql
+│   │   └── check.cql
+│   ├── Dockerfile1
+│   ├── Dockerfile2
+│   ├── Dockerfile3
+│   ├── build_cqlsh.sh
+│   ├── remove_cqlsh.sh
+│   └── run_cqlsh.sh
+├── results
+│   ├── result1.png
+│   └── result2.png
 ├── README.md
-├── package.json
-├── bower.json (if using bower)
-└── .gitignore
+├── run-cluster.sh
+└── shutdown-cluster.sh
 ```
 
 ## Results

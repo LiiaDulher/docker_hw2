@@ -21,3 +21,6 @@ $ . cqlsh/run_cqlsh.sh
 $ . cqlsh/remove_images.sh
 $ ./shutdown-cluster.sh
 ````
+## Results
+![result1](./results/result1.png)
+![result2](./results/result2.png)

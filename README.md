@@ -1,7 +1,7 @@
 # Docker hw2
 Cassandra 1
 
-## TODO: Change script run-cluster, add important message
+## TODO: Change script run-cluster, add important message, add folders structure
 
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 

@@ -22,6 +22,7 @@ $ . cqlsh/remove_images.sh
 $ ./shutdown-cluster.sh
 ````
 ## Directory structure
+```markdown
 ├── app
 │   ├── css
 │   │   ├── **/*.css
@@ -40,6 +41,7 @@ $ ./shutdown-cluster.sh
 ├── package.json
 ├── bower.json (if using bower)
 └── .gitignore
+```
 
 ## Results
 ![result1](./results/result1.png)

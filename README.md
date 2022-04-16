@@ -36,20 +36,20 @@ $ docker compose down
 │   ├── cql_scripts       
 │   │   ├── DDL.cql       <-- keyspace and tables creation
 │   │   ├── DML.cql       <-- inserting data into tables
-│   │   └── check.cql     <-- getting kyspaces, tables from my keyspace and all rows from my tables
-│   ├── Dockerfile1
-│   ├── Dockerfile2
-│   ├── Dockerfile3
-│   ├── build_cqlsh.sh
-│   ├── remove_images.sh
-│   └── run_cqlsh.sh
+│   │   └── check.cql     <-- getting keyspaces, tables from my keyspace and all rows from my tables
+│   ├── Dockerfile1      ┐
+│   ├── Dockerfile2      |<-- Dokerfiles for building cqlsh images with cql_scripts encapsulated 
+│   ├── Dockerfile3      ┘
+│   ├── build_cqlsh.sh    <-- build all images
+│   ├── remove_images.sh  <-- remove all these images after usage
+│   └── run_cqlsh.sh      <-- run all images
 ├── results
-│   ├── result1.png
-│   └── result2.png
+│   ├── result1.png      ┐<-- screenshots of running all scripts
+│   └── result2.png      ┘
 ├── README.md
-├── docker-compose.yaml
-├── run-cluster.sh
-└── shutdown-cluster.sh
+├── docker-compose.yaml   <-- Cassandra nodes configuration file
+├── run-cluster.sh        <-- run three node Cassandra cluster
+└── shutdown-cluster.sh   <-- shutdown three node Cassandra cluster
 ```
 
 ## Results

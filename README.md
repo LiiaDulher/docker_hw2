@@ -14,11 +14,11 @@ $ sudo chmod +x run-cluster.sh
 $ sudo chmod +x shutdown-cluster.sh
 $ sudo chmod +x cqlsh/build_cqlsh.sh
 $ sudo chmod +x cqlsh/run_cqlsh.sh
-$ sudo chmod +x cqlsh/remove_cqlsh.sh
+$ sudo chmod +x cqlsh/remove_images.sh
 $ ./run-cluster.sh
 $ . cqlsh/build_cqlsh.sh
 $ . cqlsh/run_cqlsh.sh
-$ . cqlsh/remove_cqlsh.sh
+$ . cqlsh/remove_images.sh
 $ ./shutdown-cluster.sh
 ````
 ## Directory structure
@@ -32,7 +32,7 @@ $ ./shutdown-cluster.sh
 │   ├── Dockerfile2
 │   ├── Dockerfile3
 │   ├── build_cqlsh.sh
-│   ├── remove_cqlsh.sh
+│   ├── remove_images.sh
 │   └── run_cqlsh.sh
 ├── results
 │   ├── result1.png

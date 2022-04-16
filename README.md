@@ -1,8 +1,6 @@
 # Docker hw2
 Cassandra 1
 
-## TODO: add folders structure
-
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 
 ### Important
@@ -34,11 +32,11 @@ $ docker compose down
 ````
 ## Directory structure
 ```markdown
-├── cqlsh
-│   ├── cql_scripts
-│   │   ├── DDL.cql
-│   │   ├── DML.cql
-│   │   └── check.cql
+├── cqlsh                 <-- cqlsh images and scripts
+│   ├── cql_scripts       
+│   │   ├── DDL.cql       <-- keyspace and tables creation
+│   │   ├── DML.cql       <-- inserting data into tables
+│   │   └── check.cql     <-- getting kyspaces, tables from my keyspace and all rows from my tables
 │   ├── Dockerfile1
 │   ├── Dockerfile2
 │   ├── Dockerfile3

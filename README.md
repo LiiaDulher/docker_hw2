@@ -6,7 +6,8 @@ Cassandra 1
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 
 ### Important
-It takes about 65 seconds for Cassandra node to start, so <i>run-cluster.sh</i> will run about <b>2,5 minutes</b> and <i>run_cqlsh.sh</i> about <b>1,5 minutes</b>.
+It takes about 65 seconds for Cassandra node to start, so <i>run-cluster.sh</i> will run about <b>3,5 minutes</b>.<br>
+If you use docker-compose to start Cassandra please wait about <b>1 minute</b> before running <i>cqlsh/run_cqlsh.sh</i>.
 
 ### Usage
 ````

@@ -1,7 +1,7 @@
 # Docker hw2
 Cassandra 1
 
-## TODO: add folders structure, yaml
+## TODO: add folders structure
 
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 
@@ -39,6 +39,7 @@ $ ./shutdown-cluster.sh
 │   ├── result1.png
 │   └── result2.png
 ├── README.md
+├── docker-compose.yaml
 ├── run-cluster.sh
 └── shutdown-cluster.sh
 ```

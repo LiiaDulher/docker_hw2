@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  cassandra-node1:
+    image: cassandra:latest
+    container_name: cassandra-node1
+    networks:
+      - dulher-cassandra-network
+    environment:
+      - CASSANDRA_SEEDS=cassandra-node1
+      - CASSANDRA_CLUSTER_NAME=dulher_cluster
+  
+  cassandra-node2:
+    image: cassandra:latest
+    container_name: cassandra-node2
+    networks:
+      - dulher-cassandra-network
+    environment:
+      - CASSANDRA_SEEDS=cassandra-node1
+      - CASSANDRA_CLUSTER_NAME=dulher_cluster
+    depends_on:
+      - "cassandra-node1"
+  
+  cassandra-node3:
+    image: cassandra:latest
+    container_name: cassandra-node3
+    networks:
+      - dulher-cassandra-network
+    environment:
+      - CASSANDRA_SEEDS=cassandra-node1
+      - CASSANDRA_CLUSTER_NAME=dulher_cluster
+    depends_on:
+      - "cassandra-node2"
+
+networks:
+  dulher-cassandra-network:
+    external: false
+    name: dulher-cassandra-network
+

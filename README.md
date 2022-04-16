@@ -16,11 +16,21 @@ $ sudo chmod +x shutdown-cluster.sh
 $ sudo chmod +x cqlsh/build_cqlsh.sh
 $ sudo chmod +x cqlsh/run_cqlsh.sh
 $ sudo chmod +x cqlsh/remove_images.sh
+````
+````
 $ ./run-cluster.sh
 $ . cqlsh/build_cqlsh.sh
 $ . cqlsh/run_cqlsh.sh
 $ . cqlsh/remove_images.sh
 $ ./shutdown-cluster.sh
+````
+OR
+````
+$ docker compose up -d
+$ . cqlsh/build_cqlsh.sh
+$ . cqlsh/run_cqlsh.sh
+$ . cqlsh/remove_images.sh
+$ docker compose down
 ````
 ## Directory structure
 ```markdown
